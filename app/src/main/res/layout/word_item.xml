@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/word_name"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/word_detail"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Delete"
+            android:background="#2E3C32"
+            android:textColor="@android:color/white"
+            android:text="@string/delete"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            tools:ignore="Suspicious0dp" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Alter"
+            android:background="#2E3C32"
+            android:textColor="@android:color/white"
+            android:text="@string/alter"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            tools:ignore="Suspicious0dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

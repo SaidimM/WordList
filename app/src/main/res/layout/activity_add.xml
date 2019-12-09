@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+ <EditText
+     android:id="@+id/addWord"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:hint="需要增加的单词"></EditText>
+<!--     android:id="@+id/addWord"-->
+     />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="英式发音"
+        android:id="@+id/usphonetic"
+        />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="美式发音"
+        android:id="@+id/ukphonetic"
+        />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="单词的解释"
+        android:id="@+id/addExplain"
+        />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="添加例句"
+        android:id="@+id/addExample"
+        />
+
+   <Button
+       android:id="@+id/sure"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="确定"
+       />
+
+
+
+
+
+
+</LinearLayout>

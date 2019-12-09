@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WordListSecond</string>
+    <string name="delete">delete</string>
+    <string name="edit">edit</string>
+    <string name="alter">Alter</string>
+    <string name="search">网络搜索</string>
+    <string name="wordList">生词本</string>
+    <string name="Alter">修改单词</string>
+</resources>
